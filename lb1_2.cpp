@@ -14,7 +14,7 @@ int main() {
 
     for (int i = 0; i < 10; i++) {
         X[i] = 0;
-        for (int j = 0; j < 2; j++) {
+        for (int j = 0; j < 30; j++) {
             cout << "C[" << i << "][" << j << "] = ";
             cin >> C[i][j];
             X[i] += C[i][j];
